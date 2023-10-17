@@ -1,13 +1,69 @@
+html {
+    font-size: 14px;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px;
+}
 /* Add a background color to the header element */
+header {
+    background-color: #52796f;
+    height: 100px;
+    margin-top: 0;
+    font-size: 1.6rem;
+    border-bottom: 3px solid #2f3e46;
+}
 
 /* Add a fun background color to the main element */
+main {
+    height: 400px;
+    width: 100%;
+    background-color: #cad2c5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* Align the h1 containing your name in the center of the header*/
+.name {
+    text-align: center;
+    color: #2f3e46;
+}
 
-/* Make your p tag a different color and italic */
 
 /* Put a border around your image */
+.self-portrait {
+    height: 200px;
+    width: 200px;
+    border: 3px solid #84a98c;
+    border-radius: 40%;
+}
+
+.list-label {
+    font-weight: 900;
+    font-size: 1.5rem;
+}
 
 /* Change the font-family of your list */
+.about-me {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #2f3e46;
+    list-style: none;
+}
 
 /* Add a background color to the footer element */
+footer {
+    background-color: #52796f;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    border-top: 3px solid #2f3e46;
+}
+
+/* Make your p tag a different color and italic */
+.footer-quote {
+    color: #2f3e46;
+    font-style: italic;
+    font-size: 1.6rem;
+}
