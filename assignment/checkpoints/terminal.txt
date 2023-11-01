@@ -30,4 +30,4 @@ For instance, as of right now, my assignment/index.html file is currently modifi
 git add . adds all files in your PWD to the staging area
 
 # 10 - What is the command to push your committed changes to your repo on GitHub?
-git push
+git push origin main
